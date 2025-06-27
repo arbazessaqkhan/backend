@@ -916,11 +916,11 @@ async function registerRoutes(app2) {
 import express from "express";
 import fs from "fs";
 import path2 from "path";
-import { createServer as createViteServer, createLogger } from "vite";
+// import { createServer as createViteServer, createLogger } from "vite";
 
 // vite.config.ts
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
+// import { defineConfig } from "vite";
+// import react from "@vitejs/plugin-react";
 import path from "path";
 var vite_config_default = defineConfig(async () => {
   const plugins = [
