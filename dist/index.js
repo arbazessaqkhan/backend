@@ -927,10 +927,10 @@ var vite_config_default = defineConfig(async () => {
     react(),
     runtimeErrorOverlay()
   ];
-  if (process.env.NODE_ENV !== "production" && process.env.REPL_ID !== void 0) {
-    const { cartographer } = await 
-    plugins.push(cartographer());
-  }
+  // if (process.env.NODE_ENV !== "production" && process.env.REPL_ID !== void 0) {
+  //   const { cartographer } = await import("@replit/vite-plugin-cartographer");
+  //   plugins.push(cartographer());
+  // }
   return {
     base: "/",
     plugins,
